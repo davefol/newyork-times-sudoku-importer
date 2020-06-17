@@ -1,0 +1,26 @@
+  {
+    "name": "New York Times Sudoku Importer",
+    "version": "0.0.0.1",
+    "description": "Get the .sdk of New York Times sudoku puzzles.",
+    "permissions": ["declarativeContent", "activeTab"],
+    "background": {
+    	"scripts": ["background.js"],
+	"persistent": false	
+    },
+    "page_action": {
+    	"default_popup": "popup.html",
+	"default_icon": {
+		"16": "nyt_sudoku_importer_icons/Artboard 1.png",
+		"32": "nyt_sudoku_importer_icons/Artboard 1@2x.png",	
+		"48": "nyt_sudoku_importer_icons/Artboard 1@3x.png",
+		"128": "nyt_sudoku_importer_icons/Artboard 1@4x.png"
+	}
+    },
+    "icons": {
+	"16": "nyt_sudoku_importer_icons/Artboard 1.png",
+	"32": "nyt_sudoku_importer_icons/Artboard 1@2x.png",	
+	"48": "nyt_sudoku_importer_icons/Artboard 1@3x.png",
+	"128": "nyt_sudoku_importer_icons/Artboard 1@4x.png"
+    },
+    "manifest_version": 2
+  }
